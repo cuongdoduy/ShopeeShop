@@ -25,8 +25,7 @@
                                         </a>                                    
                                         <a href="" class="header__navbar-qrcode-link">
                                             <img src="assets/img/chplay.png" alt="chplay" class="header__navbar-qrcode-imgdownload">
-                                        </a>
-                                        
+                                        </a>                                        
                                     </div>
                                 </div>
                             </li>
@@ -88,17 +87,37 @@
                                     <i class="fa-regular fa-question"></i>
                                     Trợ giúp</a>
                             </li>
-                            <li class="header__navbar-items">
+                            <!-- <li class="header__navbar-items">
                                 <a href="#" class="header__navbar-items-link">Đăng ký</a>
                             </li>
                             <li class="header__navbar-items">
                                 <a href="#" class="header__navbar-items-link">Đăng nhập</a>
-                            </li>                                               
+                            </li>                                                -->
+                            <li class="header__navbar-items header__navbar-user">
+                                <img src="assets/img/profile.jpg" alt="" class="header__navbar-user-image">
+                                <span class="header__navbar-user-name">Duy Cương</span>                             
+                                    <ul class="header__navbar-user-menu-list">
+                                        <li class="header__navbar-user-menu-items">
+                                            <a class="header__navbar-user-menu-items-text">Tài khoản của tôi</a>
+                                        </li>
+                                        <li class="header__navbar-user-menu-items">
+                                            <a class="header__navbar-user-menu-items-text">Địa chỉ của tôi</a>
+                                        </li>
+                                        <li class="header__navbar-user-menu-items">
+                                            <a class="header__navbar-user-menu-items-text">Đơn mua</a>
+                                        </li>
+                                        <li class="header__navbar-user-menu-items">
+                                            <a class="header__navbar-user-menu-items-text header__navbar-user-menu-items-text--separate">Đăng xuất</a>
+                                        </li>
+                                      
+                                    </ul>                    
+                            </li>
                         </ul>
                 </nav>
                 <!-- Header Search -->
                 <div class="header__search">
                     <div class="header__logo">
+                       <a href="index.html" class="header__logo-link">
                         <svg viewBox="0 0 192 65" class="logo__img">
                             <g fill-rule="evenodd">
                                 <path class="logo_color"
@@ -106,6 +125,7 @@
                                 ></path>
                             </g>
                         </svg>
+                       </a>
                     </div>
                     <div class="header_search-search">
                         <div class="header_search_wrap">
@@ -145,6 +165,7 @@
                         <div class="header_cash-wrap">
                             <i class="header_cash-icon fas fa-shopping-cart"></i>
                             <span class="header_cash_notice">3</span>
+                            <!-- Cart:Header_cash_list -->
                             <div class="header_cash_container">
                                 <h4 class="header_cash_heading">Sản phẩm mới thêm</h4>
                                 <ul class="header_cash_list-items">
@@ -169,8 +190,50 @@
                                             </div>                                        
                                         </div>
                                     </li>
+                                    <li class="header_cash_items">
+                                        <img src="assets/img/tải xuống.jpg" alt="" class="header_cash_items-image">
+                                        <div class="header_cash-items-info">
+                                            <div class="header_cash-items-info-head">
+                                                <h5 class="header_cash-items-name">Áo thun Basic trắng MYO</h5>
+                                                <div class="header_cash-items_price-wrap">
+                                                    <span class="header_cash-items-price">250.000</span>
+                                                    <span class="header_cash-items-mutiply"> x </span>
+                                                    <span class="header_cash-items-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header_cash-items-info-body">
+                                                <span class="header_cash-items-description">
+                                                    Phân loại: Áo thun
+                                                </span>
+                                                <span class="header_cash-items-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>                                        
+                                        </div>
+                                    </li>
+                                    <li class="header_cash_items">
+                                        <img src="assets/img/tải xuống.jpg" alt="" class="header_cash_items-image">
+                                        <div class="header_cash-items-info">
+                                            <div class="header_cash-items-info-head">
+                                                <h5 class="header_cash-items-name">Áo thun Basic trắng MYO</h5>
+                                                <div class="header_cash-items_price-wrap">
+                                                    <span class="header_cash-items-price">250.000</span>
+                                                    <span class="header_cash-items-mutiply"> x </span>
+                                                    <span class="header_cash-items-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header_cash-items-info-body">
+                                                <span class="header_cash-items-description">
+                                                    Phân loại: Áo thun
+                                                </span>
+                                                <span class="header_cash-items-remove">
+                                                    Xóa
+                                                </span>
+                                            </div>                                        
+                                        </div>
+                                    </li>
                                 </ul>
-                                <button class="btn btn--primary">Xem giỏ hàng</button>
+                                <button class="btn btn--primary btn--cashout">Xem giỏ hàng</button>
                                 
                             </div>
                             <!-- Cart:No Cart header_cash_list-nocard-->
@@ -183,12 +246,305 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </header>
-        <div class="container">
-        </div>
+        <div class="App__container">
+            <div class="grid">
+                <div class="grid__row app__contain">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <div class="category__head">
+                                <i class="category__head-icon fa-solid fa-list"></i>
+                                <h3 class="categor-heading">Danh mục</h3>
+                            </div>
+                                <ul class="category__list"> 
+                                    <li class="category__items">
+                                        <a href="#" class="category__items-link category__items-link--active">Sản phẩm </a>
+                                    </li>
+                                    <li class="category__items">
+                                            <a href="#" class="category__items-link">Sản phẩm mới</a>
+                                    </li>
+                                    <li class="category__items">
+                                            <a href="#" class="category__items-link">Quần short</a>
+                                    </li>
+                                    <li class="category__items">
+                                            <a href="#" class="category__items-link">Áo thun</a>  
+                                    </li>
+                                    <li class="category__items">
+                                            <a href="#" class="category__items-link">Áo Polo</a>   
+                                    </li>
+                                    <li class="category__items">
+                                            <a href="#" class="category__items-link">Áo khoác Hoodie</a>   
+                                    </li>
+                                </ul>        
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">                        
+                        <div class="home-filter">
+                            <span class="home-filter-label">Sắp xếp theo</span>
+                            <button class="btn btn--primary btn--home-filter">Phổ biến</button>
+                            <button class="btn btn--home-filter ">Mới nhất</button>                            
+                            <button class="btn btn--home-filter">Bán chạy</button>
+                            <div class="home-filter-price-selected">                      
+                                <span class="home-filter-price-selected-text">Giá</span>
+                                <i class="home-filter-price-selected-icon fas fa-angle-down">  </i>
+                                    <ul class="home-filter-menu">
+                                        <li class="home-filter-items">
+                                            <a href="#" class="home-filter-items-link">Giá: Thấp đến Cao</a>
+                                        </li>
+                                        <li class="home-filter-items">
+                                            <a href="#" class="home-filter-items-link">Giá: Cao đến Thấp</a>
+                                        </li>                                                                            </ul>
+                            </div>
+                            <div class="home-page">
+                                <span class="home-pagenum">
+                                    <span class="home-pagenumber--active">1</span>/4
+                                </span>
+                                <div class="home-page-move--page">
+                                    <i class="home-page-pre--page-icon fa-solid fa-chevron-left"></i>
+                                    <i class="home-page-next--page-icon fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__product">
+                            <div class="grid__row">
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div  class="grid__column-2-4">                                    
+                                    <div href="" class="home__product-items">
+                                        <a href="" class="home__product-items-link">
+                                            <div class="home__product-items-img">
+                                                <img src="	https://cf.shopee.vn/file/bb8ed7026f4eaa792174b03ea1c33023_tn" alt="" class="home__product-items-img-link">
+                                            </div>
+                                            <div class="home__product-items-description">
+                                                    <h4 class="home__product-items-name">Áo khoác jean nam Classic ICON DENIM All Black chất liệu Jean dày dặn có túi trong AKID0067</h4>
+                                                    <div class="home__product-items-price">
+                                                        <span class="home__product-items-oldprice">₫580.000</span>
+                                                        <span class="home__product-items-newprice">₫499.000</span>
+                                                    </div>  
+                                                    <div class="home__product-items-rate">
+                                                        <div class="home__product-items-rate-ic">
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                            <i class="home__product-items-rate-icon fa-solid fa-star"></i>
+                                                        </div>                                                
+                                                        <span class="home__product-items-rate-qnt-bought">
+                                                            Đã bán 7.5k
+                                                        </span>                                                                                            
+                                                    </div>
+                                                    <div class="home__product-items-location">Tp.Hồ Chí Minh</div>                                                   
+                                                    <div class="home__product-items-discount">
+                                                        <span class="home__product-items-discount-percent">10%</span>
+                                                        <span class="home__product-items-discount-label">GIẢM</span>
+                                                    </div>
+                                            </div>
+                                        </a>
+                                        <div class="home__product-items-search">
+                                            <a href="https://shopee.vn/find_similar_products?catid=100011&itemid=11857107094&shopid=238618977" class="home__product-items-search-link" target="_blank">
+                                                 Tìm sản phẩm tương tự 
+                                            </a>                                            
+                                        </div>     
+                                    </div>
+                                </div>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>           
         <footer class="footer"></footer>
-        </div>
+    </div>
         <!-- Modal -->
         <!-- <div class="modal">
             <div class="modal_overlay"></div>
@@ -221,7 +577,7 @@
                                         </div>
                                         <div class="auth-form__controls">
                                             <button class="btn btn-back btn-normal">TRỞ LẠI</button>
-                                            <button class="btn  btn--primary">ĐĂNG KÝ</button>
+                                            <button class="btn btn--primary">ĐĂNG KÝ</button>
                                         </div>
                                     </div>      
                                 </div>              
